@@ -1,4 +1,4 @@
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.preprocessing.sequence import pad_sequences
 import pickle
 model=pickle.load(open('model.pkl','rb'))
 tokenizer=pickle.load(open("tokenizer.pkl",'rb'))
